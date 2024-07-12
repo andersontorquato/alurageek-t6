@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" href="./assets/images/icon-astro.png" type="image/x-icon">
+    <!-- <a target="_blank" href="https://icons8.com/icon/Ttj6DPcRjBZG/astronomy">Astronomy</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a> -->
+
+    <title>Alura-Geek-t6</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>
+        <img src="./assets/images/Logo.png" alt="Logo Alurageek" />
+      </h1>
+    </header>
+
+    <main>
+      <div class="container" id="produtos">
+        <section class="meus-produtos" id="todosProdutos">
+          <h2>CAMISAS GEEK:</h2>
+          <div class="produtos" id="cards">
+            <!-- Conteúdo dos produtos será inserido aqui -->
+          </div>
+        </section>
+
+        <section id="produtos-container" class="adicionar-produtos">
+          <h2>ADICIONAR PRODUTO:</h2>
+          <form id="form-produto">
+            <div class="input-group">
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Nome..."
+                required
+              />
+              <input
+                type="number"
+                id="valor"
+                name="valor"
+                placeholder="Valor..."
+                required
+              />
+              <input
+                type="url"
+                id="imagem"
+                name="imagem"
+                placeholder="URL da Imagem..."
+                required
+              />
+            </div>
+            <div class="button-group">
+              <button class="guardar" type="submit">Guardar</button>
+              <button class="limpar" type="reset">Limpar</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <img src="./assets/images/Logo.png" class="logo" alt="Logo Alurageek" />
+      <p>Anderson Torquato</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
